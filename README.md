@@ -4,4 +4,5 @@ The Following model is simple feed Forward neural Network.
 
 `Data`
 
-The Data is divided into a few tasks .We classify any request or message into a tag and then we use the responses to respond.
+The Data is divided into a few tags .We classify any request or message into a tag and then we use the responses to respond. For each tag we have a pattern component which is used to train for the tag.
+
