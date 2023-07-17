@@ -1,0 +1,230 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "items",
+        "patterns": [
+          "Which items do you have?",
+          "What kinds of items are there?",
+          "What do you sell?"
+        ],
+        "responses": [
+          "We sell coffee and tea",
+          "We have coffee and tea"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      },
+      {
+        "tag": "game",
+        "patterns": [
+          "Do you know about any game",
+          "Do you know about Cricket",
+          "Any game"
+        ],
+        "responses": [
+          "Yes, you can ask anything about Cricket",
+          "Yes I know about Cricket"
+        ]
+      },
+      {
+        "tag": "odirun",
+        "patterns": [
+          "Who scored highest runs in odi matches for India",
+          "Most Odi runs by an Indian batsman",
+          "Odi runs",
+          "most runs scored by an indian batsman in odi"
+        ], 
+        "responses": [
+          "Sachin Tendulkar scored 18426 runs in 452 innings with an average of 44.83"
+        ]
+      },
+      {
+        "tag": "testrun",
+        "patterns": [
+          "Who scored highest runs in test matches for India",
+          "Most test runs by an Indian batsman",
+          "test runs",
+          "most runs scored by an indian batsman in test"
+        ],
+        "responses":[
+          "Sachin Tendulkar scored 15921 runs in 329 innings with an average of 53.78"
+        ]
+      },
+      {
+        "tag": "t20runs",
+        "patterns": [
+          "Who scored highest runs in t20 international for India",
+          "Most twenty-twenty or t20 runs by an Indian batsman",
+          "twenty-twenty or t20 runs",
+          "most runs scored by an indian batsman in t20"
+        ],
+        "responses":[
+          "Virat Kohli scored 4008 runs in 107 innings with an average of 52.73"
+        ]
+      },
+      {
+        "tag": "Odiwicket",
+        "patterns": [
+          "Who took highest wicket in odi matches for India",
+          "Most Odi wickets by an Indian bowler",
+          "Odi wickets",
+          "highest wickets by an indian bowler in odi"
+        ], 
+        "responses": [
+          "Anil Kumble took 334 wickets in 263 innings with an economy of 4.29"
+        ]
+      },
+      {
+        "tag": "testwicket",
+        "patterns": [
+          "Who took highest wicket in test matches for India",
+          "Most test wickets by an Indian bowler",
+          "test wickets",
+          "highest wickets by an indian bowler in test"
+        ], 
+        "responses": [
+          "Anil Kumble took 619 wickets in 236 innings and his best was 10 wickets in an inning"
+        ]
+      },
+      {
+        "tag": "t20wicket",
+        "patterns": [
+          "Who took highest wicket in t20 for India",
+          "Most t20 or twenty-twenty wickets by an Indian bowler",
+          "t20 or twenty-twenty wickets",
+          "highest wickets by an indian bowler in t20"
+        ], 
+        "responses": [
+          "Bhuvneshwar Kumar Singh took 89 wickets in 84 innings and his best is 5 wickets in an inning"
+        ]
+      },
+      {
+        "tag": "icctrophies",
+        "patterns": [
+          "How many ICC trophies won by India",
+          "ICC trophies won by India"
+        ],
+        "responses":[
+          "The team has won five major ICC tournaments, winning the Cricket World Cup twice (1983 and 2011), the ICC T20 World Cup once (2007) and the ICC Champions Trophy twice (2002 and 2013)"
+        ]
+      },
+      {
+        "tag": "WorldCup",
+        "patterns": [
+          "When India won's World cup",
+          "World Cup won by Indian team"
+        ],
+        "responses": [
+          "India won the Cricket world cup in 1983 and 2011 and T20 World cup in 2007"
+        ]
+      },
+      {
+        "tag": "Champion's trophy",
+        "patterns": [
+          "When India won's Champion's trophy",
+          "Champion's trophy won by Indian team"
+        ],
+        "responses": [
+          "India won ICC Champions Trophy twice in 2002 and 2013"
+        ]
+      },
+      {
+        "tag": "last ICC trophy",
+        "patterns": [
+          "last ICC trophy by India",
+          "When India got its last ICC trophy"
+        ],
+        "responses": [
+          "India won its last ICC title of Champions Trophy in 2013"
+        ]
+      },
+      {
+        "tag": "Virat",
+        "patterns":[
+          "What do you know about Virat Kohli",
+          "Do you know Virat Kohli",
+          "Do you know Kohli"
+        ],
+        "responses":[
+          "Yes he is a Right Handed Indian batsman born on 05 Nov 1988. he have 8074 Test runs 12344 ODI runs and 4008 T20I runs"
+        ]
+      },
+      {
+        "tag": "SuryakumarYadav",
+        "patterns": [
+          "Do you know Surya kumar Yadav",
+          "What do you know about Surya Kumar Yadav",
+          "Do you know SKY"
+        ],
+        "responses":[
+          "Yes he is a Right handed Indian batsman born on 14 sept 1990. Suryakumar Yadav made his first-class debut against Delhi during the 2010-11 Ranji season. he have 340 ODI runs and 1284 T20I runs. As of now he have ICC rank 1 in T20I"
+        ]
+      }
+    ]
+  }
